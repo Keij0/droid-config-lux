@@ -17,6 +17,16 @@ Requires:
 # For multi-SIM devices
 #- jolla-settings-networking-multisim
 
+# Pre-installed applications, since we don't support OTA well enough:
+# - sailfish-office
+# - jolla-calculator
+# - jolla-email
+# - jolla-notes
+# - jolla-clock
+# - jolla-mediaplayer
+# - jolla-calendar
+# - sailfish-weather
+
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
 - jolla-settings-accounts-extensions-3rd-party-all
@@ -27,6 +37,9 @@ Requires:
 # Sailfish OS CSD tool for hardware testing
 # needs some configuration to get all features working
 - csd
+
+# sd-utils for mounting sdcard
+- sd-utils
 
 Summary: Jolla Configuration lux
 

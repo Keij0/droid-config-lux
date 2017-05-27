@@ -11,8 +11,8 @@ imageResolution_4_3='5344x4008'
 imageResolution_16_9='5344x3006'
 viewfinderResolution_4_3='1280x960'
 viewfinderResolution_16_9='1280x720'
-resolutionText_4_3='camera_settings-me-4-3-8m'
-resolutionText_16_9='camera_settings-me-16-9-6m'
+resolutionText_4_3='16:9 (21 Mpix)'
+resolutionText_16_9='3:4 (16 Mpix)'
 focusDistance=16
 
 [apps/jolla-camera/secondary/image]
