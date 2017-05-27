@@ -15,7 +15,7 @@ Requires:
 - sailfish-content-graphics-z@ICON_RES@
 
 # For multi-SIM devices
-#- jolla-settings-networking-multisim
+- jolla-settings-networking-multisim
 
 # Pre-installed applications, since we don't support OTA well enough:
 # - sailfish-office
