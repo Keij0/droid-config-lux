@@ -3,7 +3,7 @@ Description=Load WLAN Kernel Module
 DefaultDependencies=no
 Conflicts=shutdown.target
 After=droid-late-start.service persist.mount firmware.service
-Requires=persist.mount firmware.mount
+Requires=persist.mount firmware.service
 Before=network.target wpa_supplicant.service
 
 [Service]
