@@ -1,3 +1,4 @@
 /installroot/*
 /RPMS/*
 /documentation.list
+/tmp/*

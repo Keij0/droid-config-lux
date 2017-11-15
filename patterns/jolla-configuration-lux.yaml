@@ -41,5 +41,14 @@ Requires:
 # sd-utils for mounting sdcard
 - sd-utils
 
+# Jolla Store items
+- patterns-sailfish-consumer-generic
+
+# Keyboard layouts
+- jolla-keyboard-layout-all
+
+# Non-trusted app installation support
+- jolla-settings-system-sideloading
+
 Summary: Jolla Configuration lux
 
