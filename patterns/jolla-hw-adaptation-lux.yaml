@@ -12,7 +12,7 @@ Requires:
 - droid-config-lux-policy-settings
 - droid-config-lux-preinit-plugin
 - droid-config-lux-flashing
-- droid-config-lux-bluez4
+- droid-config-lux-bluez5
 - droid-hal-version-lux
 - droid-hal-lux-detritus
 
