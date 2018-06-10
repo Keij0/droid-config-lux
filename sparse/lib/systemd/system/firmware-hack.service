@@ -1,0 +1,12 @@
+[Unit]
+Description=copy /system/etc/firmware to /etc/firmware
+After=system.mount
+Requires=system.mount
+ConditionPathExists=!/etc/firmware
+
+[Service]
+Type=simple
+ExecStart=/bin/cp -R /system/etc/firmware /etc/
+
+[Install]
+WantedBy=local-fs.target

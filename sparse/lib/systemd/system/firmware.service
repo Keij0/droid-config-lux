@@ -7,14 +7,8 @@ DefaultDependencies=no
 # our best hope is that android init doesn't notice that and that the crashing party fixes itself :)
  
 [Service]
-Type=notify
-NotifyAccess=all
+Type=simple
 ExecStart=/bin/sh /usr/bin/droid/extract_firmware.sh
-#Restart=always
-# Lets make sure we don't block minutes in case of errors.
-TimeoutSec=15
-#StartLimitInterval=60
-#StartLimitBurst=2
  
 [Install]
 WantedBy=local-fs.target
